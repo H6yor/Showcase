@@ -233,5 +233,51 @@ body.theme-color .social a {
     }
 }
 
-
-
+.services{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 35px;
+}
+.services .services-title{
+    color: var(--accent-color);
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.services-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.services-card{
+    text-align: center;
+    margin-top: 35px;
+    width: 500px;
+    border: 1px solid #ddd;
+    margin: 0 8px;
+    padding: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.services-card i{
+    font-size: 30px;
+    color: var(--accent-color);
+    margin-bottom: 15px;
+    
+}
+.services-card h4{
+    font-size: 20px;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+.services-card p{
+    color: var(--secondary-color);
+    font-size: 14px;
+}
+.services-title span{
+    color: var(--secondary-color);
+}

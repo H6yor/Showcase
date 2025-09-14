@@ -1,6 +1,8 @@
 const dark_mode = document.getElementById('dark-mode')
 const mode_icon = document.getElementById('mode-icon');
 
+
+
 dark_mode.addEventListener('click', function () {
     document.body.classList.toggle('theme-color')
 
