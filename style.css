@@ -281,3 +281,15 @@ body.theme-color .social a {
 .services-title span{
     color: var(--secondary-color);
 }
+
+body.theme-color .services-card p{
+    color: var(--dark-mode-text);
+}
+
+body.theme-color .services-title span{
+    color: var(--base-variant);
+}
+
+body.theme-color .services-card h4{
+    color: var(--base-color);
+}
